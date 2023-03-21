@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+p {
+    color: white;
+    
+}
+h1{
+    color: white;
+    font-size: 60px;
+    
+}
+
+h2{
+    color: white;
+    font-size: 45px;
+    
+}
+
+h3{
+    color: white;
+    font-size: 35px;
+    
+}
+
+
+h4{
+    color: white;
+    font-size: 20px;
+    
+}
+
+/* nav bar new */
+.dropdown-menu li a{
+    color: #000000;
+}
+
+.dropdown-menu li a:hover{
+    background-color: #5d6163;
+    color: white;
+
+}
+/* ends */
+
+
+button.normal{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 10px 80px 0 80px;
+    background-color: #111111;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    top: 0;
+    left: 0;   
+}
+
+
+.navbar img{
+    padding-bottom: 15px;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-container h4{
+    font-size: 23px;
+    color: white;
+}
+
+.nav-container  a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container a:hover{
+ color:#8CA8B6;
+}
+
+.nav-container h4:hover{
+    color:#8CA8B6; 
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    padding-right: 20px;
+    
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    background-color: white;
+    border-radius: 7px;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  /* delete later */
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #8CA8B6;
+  }
+
+  .dropdown-item:hover{
+    color: #FFFFFF;
+    background-color: #8CA8B6;
+  }
+
+
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+  }
+
+#banner{
+    background-image: url("image/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 25% right 0;
+    height: 83vh;
+    width: 100%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#banner .bncontainer h1{
+    color: #3b9ecf;
+    
+}
+
+.bncontainer {
+    text-align: left;
+    width: 75%;
+    max-height: 100vh;
+    
+}
+
+.subanner{
+    color: white;
+}
+
+#services{
+    
+    width: 100%;
+    background-color: #333333;
+    padding: 30px ;
+}
+
+#services h2{
+    padding-top: 40px;
+    text-align: center;
+}
+
+#services .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    flex-wrap: wrap;
+}
+
+.sub-container img{
+    max-width: 370px;
+    height: 300px;
+}
+
+.inner-container{
+    padding: 30px;
+}
+
+.inner-container p{
+    margin-top: 20px;
+    color: white;
+}
+
+.inner-container button{
+    margin-top: 20px;
+}
+
+.sub-container .inner-container{
+text-align: center;
+
+}
+
+#sectors{
+background-color: #333333;
+width: 100%;
+padding: 30px ;
+
+}
+
+#sectors .sec-containers{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+
+.sect a{
+    text-decoration: none;
+}
+
+.sect img{
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 3%;
+}
+
+#about{
+    background-color: #222222;
+}
+
+#about .context{
+    padding:100px 50px 100px 50px;
+}
+
+
+#about .context p{
+    padding-top: 20px;
+}
+
+#section-ft{
+    background-color: #8CA8B6;
+    height: 30%;
+}
+
+#section-ft .footer_info{
+    padding: 70px 30px 58px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#section-ft .footer_info ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-ft .footer_info li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+nav{
+    font-size: larger;
+}
+article{
+    font-size: large;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer_info li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+}
+
+/* solar farm start */
+#content{
+    margin: 30px 0;
+}
+
+/* solar farms end */
+#carousel h1{
+    margin: 13px  0px 13px 0px;
+}
+
+@media (max-width:480px){
+    #header{
+        padding:10px 40px 0 5px; ;
+    }
+
+    .navbar img{
+        padding-bottom: 10px;
+        width: 100px;
+        height: auto;
+    } 
+
+
+    .nav-container h4,a{
+        font-size: 10px;
+    }
+
+
+    #banner{
+        text-align: center;
+        padding: 0 20px;
+        height: 91.5vh;
+    }
+
+    .bncontainer{
+        width: 100%;
+    }
+
+    #banner .bncontainer h1{
+        color: #3b9ecf;
+        font-size: 40px;
+    }
+
+    #banner .bncontainer h4{
+        font-size: 25px;
+    }
+}
+
+.formy {
+    text-align: justify;
+}
+
+
+.submitbtn {
+    width: 100%;
+    height: 50px;
+}
+.form-label{
+    margin-top: 20px;
+}
+#contactus{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#indexsub {
+    text-shadow: 0 0 10px #000000, 0 0 20px #000000, 0 0 30px #000000;
+}
+footer{
+    font-size: large;
+    color: #FFFFFF;
+}
