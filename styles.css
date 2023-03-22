@@ -74,9 +74,25 @@ button.normal{
     left: 0;   
 }
 
+.material-symbols-outlined{
+    color: white;
+    font-size: 500px;
+}
+
+#nav-line{
+    border-color: white;
+}
 
 .navbar img{
     padding-bottom: 15px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 .nav-container{
@@ -312,20 +328,33 @@ article{
 
     .navbar img{
         padding-bottom: 10px;
-        width: 100px;
+        width: 200px;
         height: auto;
     } 
 
 
     .nav-container h4,a{
-        font-size: 10px;
+        font-size: 17px;
     }
 
+    .imagesize img{
+        padding-bottom: 10px;
+        width: 250px;
+        height: auto;
+        margin-left: 250px;
+    }
+
+    footer{
+        text-align: center;
+    }
+    #center{
+        text-align: center;
+    }
 
     #banner{
         text-align: center;
         padding: 0 20px;
-        height: 91.5vh;
+        height: 100vh;
     }
 
     .bncontainer{
@@ -340,7 +369,11 @@ article{
     #banner .bncontainer h4{
         font-size: 25px;
     }
+    #smallh1{
+        margin-top: 0px;
+    }
 }
+
 
 .formy {
     text-align: justify;
