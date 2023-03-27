@@ -321,7 +321,7 @@ article{
     margin: 13px  0px 13px 0px;
 }
 
-@media (max-width:480px){
+@media (max-width:480px) {
     #header{
         padding:10px 40px 0 5px; ;
     }
@@ -372,7 +372,16 @@ article{
     #smallh1{
         margin-top: 0px;
     }
+   
 }
+@media only screen and (orientation: landscape) {
+    .imagesize img{
+        padding-bottom: 10px;
+        width: 250px;
+        height: auto;
+    }
+
+  }
 
 
 .formy {
