@@ -303,6 +303,7 @@ article{
     line-height: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
 }
 .footer_info li a{
     text-decoration: none;
@@ -314,6 +315,8 @@ article{
 /* solar farm start */
 #content{
     margin: 30px 0;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 /* solar farms end */
@@ -406,4 +409,8 @@ article{
 footer{
     font-size: large;
     color: #FFFFFF;
+}
+.container{
+    padding-left: 4px;
+    padding-right: 4px;
 }
