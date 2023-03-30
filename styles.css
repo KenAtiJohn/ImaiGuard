@@ -274,7 +274,7 @@ flex-wrap: wrap;
 
 #section-ft{
     background-color: #8CA8B6;
-    height: 30%;
+    height: auto;
 }
 
 #section-ft .footer_info{
@@ -413,4 +413,15 @@ footer{
 .container{
     padding-left: 4px;
     padding-right: 4px;
+}
+.icons{
+    margin-left: auto;
+}
+svg{
+    transform: scale(2);
+    margin-right: 40px;
+}
+a svg{
+    text-decoration: none;
+    color: white;
 }
